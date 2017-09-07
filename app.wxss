@@ -45,8 +45,12 @@ page {
   left: 0px;
   right: 0px;
   background: #fff;
+<<<<<<< HEAD
   z-index: 9999;
   height: 145rpx;
+=======
+  z-index: 9999
+>>>>>>> 304b3a235031fdcac2a38835d5b8ece89310405a
 }
 
 .song-info{

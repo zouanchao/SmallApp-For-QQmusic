@@ -19,7 +19,11 @@ Page({
         wx.showLoading({title: '数据加载中...', mask: true});
         util.getMusicListInfo(musiclistId,function(data){
             wx.hideLoading();
+<<<<<<< HEAD
             console.log(data);
+=======
+            console.log(data.logo);
+>>>>>>> 304b3a235031fdcac2a38835d5b8ece89310405a
             that.setData({
                 frontImg:data.logo,
                 dissname:data.dissname,

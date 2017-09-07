@@ -25,11 +25,15 @@
     background: #31c27c;
 }
 
+<<<<<<< HEAD
 .recommend{
   overflow-y:scroll;
   height:80%; 
 
 }
+=======
+
+>>>>>>> 304b3a235031fdcac2a38835d5b8ece89310405a
 
 .recommend .popular{
   margin: 30rpx 20rpx;

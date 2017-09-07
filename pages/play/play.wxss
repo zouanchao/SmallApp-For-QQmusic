@@ -140,7 +140,11 @@
     line-height: 1;
 }
 .lyrics-item_active{
+<<<<<<< HEAD
     color: #00C777;
+=======
+    color: #eee;
+>>>>>>> 304b3a235031fdcac2a38835d5b8ece89310405a
     font-size: 36rpx;
     font-weight: bold;
 }
