@@ -128,12 +128,8 @@ function getSongInfo(id, mid, callback) {
 }
 
 function getLyric(id,callback){
-  wx.request({
-<<<<<<< HEAD
-    url: 'https://route.showapi.com/213-2?showapi_appid=36483&showapi_sign=175dfaf60f8c45a8973440c866475fd2&musicid='+id,
-=======
-    url: 'http://route.showapi.com/213-2?showapi_appid=36483&showapi_sign=175dfaf60f8c45a8973440c866475fd2&musicid='+id,
->>>>>>> 304b3a235031fdcac2a38835d5b8ece89310405a
+  wx.request({ 
+    url: 'https://route.showapi.com/213-2?showapi_appid=36483&showapi_sign=175dfaf60f8c45a8973440c866475fd2&musicid='+id, 
     data: {},
     method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
     // header: {}, // 设置请求的 header
